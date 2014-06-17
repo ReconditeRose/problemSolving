@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class TicTacToe {
 
+	private static Scanner inScanner;
 	/**
 	 * @param args
 	 */
@@ -34,7 +35,7 @@ public class TicTacToe {
 		
 		
 		try {
-			Scanner inScanner = new Scanner(aFile);
+			inScanner = new Scanner(aFile);
 			total = inScanner.nextInt();
 			inScanner.useDelimiter("");
 			for(int j=0;j<total;j++){

@@ -1,6 +1,6 @@
 package problems;
 
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class EvenUpSolitaireEffecient {
@@ -13,8 +13,6 @@ public class EvenUpSolitaireEffecient {
 		while (scan.hasNext()) {
 			int cards = scan.nextInt();
 			int[] cardL = new int[cards];
-			int[] cardLNext = new int[cards];
-			int length = cards;
 			for (int i = 0; i < cards; i++) {
 				cardL[i] = scan.nextInt();
 			}

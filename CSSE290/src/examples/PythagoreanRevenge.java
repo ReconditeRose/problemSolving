@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class PythagoreanRevenge {
 
+	private static Scanner s;
+
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		int counter = 1;
+		s = new Scanner(System.in);
 		while (s.hasNext()) {
 			int i = s.nextInt();
 			long square =(long) i*i;

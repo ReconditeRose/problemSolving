@@ -10,7 +10,6 @@ public class regionalProblem {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int counter = 1;
 		while (s.hasNext()) {
 
 			int length = s.nextInt();
@@ -20,7 +19,6 @@ public class regionalProblem {
 			int[][] dim = new int[length][length];
 
 			for (int i = 0; i < length; i++) {
-				char start = s.next().charAt(0);
 				int num = s.nextInt();
 				for (int j = 0; j < num; j++) {
 					char val = s.next().charAt(0);
@@ -71,6 +69,7 @@ public class regionalProblem {
 //			for (int i = 0; i < length; i++)
 //				System.out.print(markers[i]);
 //			System.out.println();
+			s.close();
 		}
 
 	}
